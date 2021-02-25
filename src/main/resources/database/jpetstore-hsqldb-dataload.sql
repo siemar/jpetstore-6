@@ -18,12 +18,39 @@ INSERT INTO sequence VALUES('ordernum', 1000);
 
 INSERT INTO signon VALUES('j2ee','j2ee');
 INSERT INTO signon VALUES('ACID','ACID');
+INSERT INTO signon VALUES('user1','pass1');
+INSERT INTO signon VALUES('user2','pass2');
+INSERT INTO signon VALUES('user3','pass3');
+INSERT INTO signon VALUES('user4','pass4');
+INSERT INTO signon VALUES('user5','pass5');
+INSERT INTO signon VALUES('user6','pass6');
+INSERT INTO signon VALUES('user7','pass7');
+INSERT INTO signon VALUES('user8','pass8');
+INSERT INTO signon VALUES('user9','pass9');
 
 INSERT INTO account VALUES('j2ee','yourname@yourdomain.com','ABC', 'XYX', 'OK', '901 San Antonio Road', 'MS UCUP02-206', 'Palo Alto', 'CA', '94303', 'USA',  '555-555-5555');
 INSERT INTO account VALUES('ACID','acid@yourdomain.com','ABC', 'XYX', 'OK', '901 San Antonio Road', 'MS UCUP02-206', 'Palo Alto', 'CA', '94303', 'USA',  '555-555-5555');
+INSERT INTO account VALUES('user1','user1@yourdomain.com','john', 'smith', 'OK', '901 San Antonio Road', 'MS UCUP02-206', 'Palo Alto', 'CA', '94303', 'USA',  '555-555-5555');
+INSERT INTO account VALUES('user2','user2@yourdomain.com','peter','linn','OK','123 Main street','','Santa Clara','CA','94303','USA','123-123-1234');
+INSERT INTO account VALUES('user3','user3@yourdomain.com','jack','bauer','OK','345 Bill road','','Mountain View','CA','94303','USA','124-124-1245');
+INSERT INTO account VALUES('user4','user4@yourdomain.com','mike','delfino','OK','2315 Miami Blvd','','Santa Clara','CA','94303','USA','125-125-1256');
+INSERT INTO account VALUES('user5','user5@yourdomain.com','susan','mayer','OK','458  San Antonio Road','','Palo Alto','CA','94303','USA','126-126-1267');
+INSERT INTO account VALUES('user6','user6@yourdomain.com','clint','eastwood','OK','124 Main street','','Santa Clara','CA','94303','USA','127-127-1278');
+INSERT INTO account VALUES('user7','user7@yourdomain.com','christopher','martin','OK','Chateau les creissauds','Le clos rufisque','aubagne','','13400','France','128-128-1289');
+INSERT INTO account VALUES('user8','user8@yourdomain.com','eva','longoria','OK','4150 Network Circle','','Santa Clara','CA','94303','USA','129-129-1291');
+INSERT INTO account VALUES('user9','user9@yourdomain.com','marcia','cross','OK',' 1600 Amphitheatre Parkway','',' Mountain View','CA','94303','USA','130-130-1301');
 
 INSERT INTO profile VALUES('j2ee','english','DOGS',1,1);
 INSERT INTO profile VALUES('ACID','english','CATS',1,1);
+INSERT INTO profile VALUES('user1','pass1','DOGS',1,1);
+INSERT INTO profile VALUES('user2','pass2','CATS',1,1);
+INSERT INTO profile VALUES('user3','pass3','DOGS',1,1);
+INSERT INTO profile VALUES('user4','pass4','CATS',1,1);
+INSERT INTO profile VALUES('user5','pass5','DOGS',1,1);
+INSERT INTO profile VALUES('user6','pass6','CATS',1,1);
+INSERT INTO profile VALUES('user7','pass7','DOGS',1,1);
+INSERT INTO profile VALUES('user8','pass8','CATS',1,1);
+INSERT INTO profile VALUES('user9','pass9','DOGS',1,1);
 
 INSERT INTO bannerdata VALUES ('FISH','<image src="../images/banner_fish.gif">');
 INSERT INTO bannerdata VALUES ('CATS','<image src="../images/banner_cats.gif">');
